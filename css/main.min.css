@@ -873,10 +873,10 @@ input {
 }
 @media (min-width: 1400px) {
   .crosses::after {
-    margin-left: 80px;
+    margin-left: 40px;
   }
   .crosses::before {
-    margin-right: 80px;
+    margin-right: 40px;
   }
 }
 
@@ -1722,10 +1722,10 @@ textarea {
 }
 @media (min-width: 1400px) {
   .headerMain .wrapperDefault::after {
-    margin-left: 80px;
+    margin-left: 40px;
   }
   .headerMain .wrapperDefault::before {
-    margin-right: 80px;
+    margin-right: 40px;
   }
 }
 .headerMain-index.show .wrapperDefault::after, .headerMain-index.show .wrapperDefault::before {
@@ -1851,9 +1851,9 @@ textarea {
 }
 @media (min-width: 1400px) {
   .footerMain .wrapperDefault::after {
-    margin-left: 80px;
+    margin-left: 40px;
   }
   .footerMain .wrapperDefault::before {
-    margin-right: 80px;
+    margin-right: 40px;
   }
 }
