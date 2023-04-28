@@ -977,12 +977,13 @@ input {
 }
 @media (min-width: 576px) {
   .section-hero > .container-fluid-inner {
-    background-position: center;
+    background-position: 78% center;
     background-image: url(../img/headermain-sm@2.webp);
   }
 }
 @media (min-width: 992px) {
   .section-hero > .container-fluid-inner {
+    background-position: 78% center;
     background-image: url(../img/headermain-lg@2.webp);
   }
 }
