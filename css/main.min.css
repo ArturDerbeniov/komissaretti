@@ -927,6 +927,19 @@ input {
     font-size: 28px;
   }
 }
+.section-hero > .container-fluid-inner .wrapperDefault {
+  height: 447px;
+}
+@media (min-width: 576px) {
+  .section-hero > .container-fluid-inner .wrapperDefault {
+    height: 473px;
+  }
+}
+@media (min-width: 905px) {
+  .section-hero > .container-fluid-inner .wrapperDefault {
+    height: 734px;
+  }
+}
 .section-hero > .container-fluid-inner {
   background-image: url(../img/headermain-xs@2.webp);
   background-repeat: no-repeat;
@@ -934,8 +947,6 @@ input {
   background-position: 99% center;
 }
 .section-hero > .container-fluid-inner .wrapperDefault {
-  height: calc(100vh - 43px);
-  min-height: 440px;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -954,12 +965,19 @@ input {
   }
   .section-hero > .container-fluid-inner .wrapperDefault .section-hero-title {
     width: 90%;
-    min-width: 270px;
+    max-width: 300px;
     margin-left: auto;
     margin-right: auto;
   }
   .section-hero > .container-fluid-inner .wrapperDefault .btn {
     width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 72px;
+    position: absolute;
+  }
+  .section-hero > .container-fluid-inner .wrapperDefault .crosses {
+    bottom: 6px;
   }
 }
 .section-hero > .container-fluid-inner .wrapperDefault .crosses {
