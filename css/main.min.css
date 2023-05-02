@@ -1011,7 +1011,7 @@ input {
   }
 }
 
-.menuMain {
+.workingBand {
   font-family: "Merriweather";
   font-weight: 400;
   background-color: #FFE81C;
@@ -1019,7 +1019,7 @@ input {
   margin: 0 -20px;
   font-size: 14px;
 }
-.menuMain-inner {
+.workingBand-inner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1029,30 +1029,30 @@ input {
   min-height: 43px;
   gap: 0 35px;
 }
-.menuMain a {
+.workingBand a {
   color: #000 !important;
   padding: 10px;
   white-space: nowrap;
   line-height: 1;
 }
-.menuMain a:hover {
+.workingBand a:hover {
   text-decoration: underline;
 }
 @media (min-width: 576px) {
-  .menuMain-inner {
+  .workingBand-inner {
     gap: 0 50px;
   }
 }
 @media (min-width: 992px) {
-  .menuMain {
+  .workingBand {
     font-size: 18px;
   }
-  .menuMain-inner {
+  .workingBand-inner {
     gap: 0 65px;
   }
 }
 @media (min-width: 1200px) {
-  .menuMain-inner {
+  .workingBand-inner {
     gap: 0 56px;
   }
 }
